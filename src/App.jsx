@@ -4,7 +4,6 @@ import BgPatternTop from "./assets/bg-pattern-top.svg";
 import ProfileImage from "./assets/image-victor.jpg";
 
 const App = () => {
-  // bg-[#19A2AE]
   return (
     <>
       <div className="flex min-h-screen flex-col items-center justify-center bg-[#19A2AE] py-[30px]">
@@ -58,9 +57,6 @@ const App = () => {
           </div>
         </div>
       </div>
-
-      {/* <img src={BgPatternBottom} className="fixed bottom-0 right-0" />
-      <img src={BgPatternTop} className="fixed left-0 top-0" /> */}
     </>
   );
 };
