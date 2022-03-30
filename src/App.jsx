@@ -8,12 +8,19 @@ const App = () => {
   // bg-[#19A2AE]
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center justify-center bg-[#19A2AE]">
-        <div className="fixed top-0 left-0 h-[400px] w-[200px] bg-[url('./assets/bg-pattern-top.svg')] bg-right-bottom bg-no-repeat"></div>
-        <div className="fixed bottom-0 right-0 h-[400px] w-[200px] bg-[url('./assets/bg-pattern-bottom.svg')] bg-left-top bg-no-repeat"></div>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-[#19A2AE] py-[30px]">
+        <img
+          src={BgPatternTop}
+          className="fixed top-0 left-0 -translate-y-[50%] -translate-x-[50%] scale-y-150 lg:scale-y-100 lg:scale-x-150"
+        />
 
-        <div className="z-20 h-[375px] w-[325px] rounded-xl bg-white font-kumbhSans">
-          <div className="mb-[75px] flex h-[140px] items-center justify-center bg-[url('./assets/bg-pattern-card.svg')]">
+        <img
+          src={BgPatternBottom}
+          className="fixed bottom-0 right-0 translate-y-[50%] translate-x-[50%] scale-y-150 lg:scale-y-75 lg:scale-x-150"
+        />
+
+        <div className="z-20 h-[375px] w-[325px] rounded-xl bg-white font-kumbhSans lg:w-[350px]">
+          <div className="mb-[75px] flex h-[140px] items-center justify-center rounded-t-xl bg-[url('./assets/bg-pattern-card.svg')]">
             <img
               src={ProfileImage}
               className="relative top-[70px] rounded-full border-4 border-white"
@@ -31,7 +38,7 @@ const App = () => {
 
           <div className="h-[1px] w-full bg-slate-200"></div>
 
-          <div className="mt-[25px] flex justify-center gap-11 text-center">
+          <div className="mt-[25px] flex justify-center gap-11 text-center lg:gap-12">
             <div>
               <p className="text-[18px] font-bold">80K</p>
               <p className="text-xs tracking-widest text-black/60">Followers</p>
