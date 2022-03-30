@@ -1,6 +1,5 @@
 import BgPatternBottom from "./assets/bg-pattern-bottom.svg";
 import BgPatternTop from "./assets/bg-pattern-top.svg";
-import BgPatternCard from "./assets/bg-pattern-card.svg";
 
 import ProfileImage from "./assets/image-victor.jpg";
 
@@ -11,11 +10,13 @@ const App = () => {
       <div className="flex min-h-screen flex-col items-center justify-center bg-[#19A2AE] py-[30px]">
         <img
           src={BgPatternTop}
+          alt="Background pattern top"
           className="fixed top-0 left-0 -translate-y-[50%] -translate-x-[50%] scale-y-150 lg:scale-y-100 lg:scale-x-150"
         />
 
         <img
           src={BgPatternBottom}
+          alt="Background pattern bottom"
           className="fixed bottom-0 right-0 translate-y-[50%] translate-x-[50%] scale-y-150 lg:scale-y-75 lg:scale-x-150"
         />
 
@@ -23,6 +24,7 @@ const App = () => {
           <div className="mb-[75px] flex h-[140px] items-center justify-center rounded-t-xl bg-[url('./assets/bg-pattern-card.svg')]">
             <img
               src={ProfileImage}
+              alt="Profile"
               className="relative top-[70px] rounded-full border-4 border-white"
             />
           </div>
