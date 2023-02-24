@@ -4,6 +4,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ---
 
-[See in Github Pages](https://denisomarcuyottito.github.io/profile-card-component/)
+[See in Github Pages](https://OTF31.github.io/profile-card-component/)
 
 ![image](https://user-images.githubusercontent.com/75378049/160947580-99555130-ab6b-425b-a0f0-512ea7d51240.png)
